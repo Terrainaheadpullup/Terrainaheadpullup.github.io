@@ -19,30 +19,19 @@ continue_btn.onclick = () => {
     quiz_box.classList.add("activeQuiz");
     showQuestions(0);
     counter(1);
-    startTimer(600)
+    startTimer(10)
 }
 
 let question_count = 0;
 let question_number = 1;
 let correctanswers = 0;
+let elo = 175;
 let count;
 
 const next_btn = quiz_box.querySelector(".next_btn")
 const results = document.querySelector(".results_box")
 const restart = results.querySelector(".buttons .Restart")
 const exit = results.querySelector(".buttons .Quit")
-
-restart.onclick = () => {
-    quiz_box.classList.add("activeQuiz");
-    results.classList.remove("activeResults")
-    let question_count = 0;
-    let question_number = 1;
-    let correctanswers = 0;
-    showQuestions(0);
-    clearInterval(count)
-    counter(1);
-    startTimer(600)
-}
 
 exit.onclick = () => {
     window.location.reload();
@@ -88,6 +77,7 @@ function optionSelected(answer){
     if(useranswer == correctanswer){
         console.log("Correct")
         correctanswers += 1
+        elo += questions[question_count].weighting
         console.log(correctanswers)
     }else{
         console.log("Incorrect")
@@ -116,8 +106,13 @@ function showResults(){
     quiz_box.classList.remove("activeQuiz");
     results.classList.add("activeResults")
     const score = results.querySelector(".score_text")
+    const elo_value = results.querySelector(".elo_text")
+    elo_score_low = elo - 15
+    elo_score_high = elo + 15
     score_tag = '<span> You scored <p>' + correctanswers + '</p> out of <p>' + questions.length + '</p></span>'
+    elo_tag = '<span> Your geoguessr ELO is likely around <p>' + elo_score_low + '-' + elo_score_high + '</p></span>'
     score.innerHTML = score_tag
+    elo_value.innerHTML = elo_tag
 }
 
 function counter(index){

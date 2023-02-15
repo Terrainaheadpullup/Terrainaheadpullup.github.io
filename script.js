@@ -19,7 +19,7 @@ continue_btn.onclick = () => {
     quiz_box.classList.add("activeQuiz");
     showQuestions(0);
     counter(1);
-    startTimer(10)
+    startTimer(600)
 }
 
 let question_count = 0;

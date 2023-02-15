@@ -323,7 +323,19 @@ section .option_list .option{
     font-weight: 500;
 }
 
+.results_box .elo_text span{
+    display: flex;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .score_text span p{
+    font-weight: 600;
+    padding: 0 4px;
+}
+
+.elo_text span p{
     font-weight: 600;
     padding: 0 4px;
 }
@@ -346,4 +358,3 @@ section .option_list .option{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-

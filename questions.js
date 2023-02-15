@@ -4,6 +4,7 @@ let questions = [
         question: "What country is this?",
         answer: "France",
         image: "Locations/1.jpg",
+        weighting: 25,
         options: [
             "United Kingdom",
             "France",
@@ -17,6 +18,7 @@ let questions = [
         question: "What country is this?",
         answer: "Greece",
         image: "Locations/2.jpg",
+        weighting: 25,
         options: [
             "France",
             "Spain",
@@ -30,6 +32,7 @@ let questions = [
         question: "What country is this?",
         answer: "Mexico",
         image: "Locations/3.jpg",
+        weighting: 22,
         options: [
             "Peru",
             "Colombia",
@@ -43,6 +46,7 @@ let questions = [
         question: "What country is this?",
         answer: "South Africa",
         image: "Locations/4.jpg",
+        weighting: 23,
         options: [
             "Kenya",
             "India",
@@ -56,6 +60,7 @@ let questions = [
         question: "What country is this?",
         answer: "United Arab Emirates",
         image: "Locations/5.jpg",
+        weighting: 19,
         options: [
             "Israel",
             "United Arab Emirates",
@@ -69,6 +74,7 @@ let questions = [
         question: "What country is this?",
         answer: "Austria",
         image: "Locations/6.jpg",
+        weighting: 29,
         options: [
             "Switzerland",
             "Slovakia",
@@ -82,6 +88,7 @@ let questions = [
         question: "What country is this?",
         answer: "Bolivia",
         image: "Locations/7.jpg",
+        weighting: 25,
         options: [
             "Bolivia",
             "Argentina",
@@ -95,6 +102,7 @@ let questions = [
         question: "What country is this?",
         answer: "Brazil",
         image: "Locations/8.jpg",
+        weighting: 23,
         options: [
             "Mexico",
             "Brazil",
@@ -108,6 +116,7 @@ let questions = [
         question: "What country is this?",
         answer: "Cambodia",
         image: "Locations/9.jpg",
+        weighting: 22,
         options: [
             "Thailand",
             "India",
@@ -121,6 +130,7 @@ let questions = [
         question: "What country is this?",
         answer: "Turkey",
         image: "Locations/10.jpg",
+        weighting: 25,
         options: [
             "Turkey",
             "Israel",
@@ -134,6 +144,7 @@ let questions = [
         question: "What country is this?",
         answer: "Denmark",
         image: "Locations/11.jpg",
+        weighting: 25,
         options: [
             "Denmark",
             "Norway",
@@ -147,6 +158,7 @@ let questions = [
         question: "What country is this?",
         answer: "Greece",
         image: "Locations/12.jpg",
+        weighting: 24,
         options: [
             "Greece",
             "Turkey",
@@ -160,6 +172,7 @@ let questions = [
         question: "What country is this?",
         answer: "Madagascar",
         image: "Locations/13.jpg",
+        weighting: 23,
         options: [
             "Kenya",
             "South Africa",
@@ -173,6 +186,7 @@ let questions = [
         question: "What country is this?",
         answer: "New Zealand",
         image: "Locations/14.jpg",
+        weighting: 25,
         options: [
             "Australia",
             "United States",
@@ -186,6 +200,7 @@ let questions = [
         question: "What country is this?",
         answer: "Singapore",
         image: "Locations/15.jpg",
+        weighting: 18,
         options: [
             "Malaysia",
             "Singapore",
@@ -199,6 +214,7 @@ let questions = [
         question: "What country is this?",
         answer: "Canada",
         image: "Locations/16.jpg",
+        weighting: 30,
         options: [
             "Australia",
             "United States",
@@ -212,6 +228,7 @@ let questions = [
         question: "What country is this?",
         answer: "Japan",
         image: "Locations/17.jpg",
+        weighting: 25,
         options: [
             "South Korea",
             "Japan",
@@ -225,6 +242,7 @@ let questions = [
         question: "What country is this?",
         answer: "Luxembourg",
         image: "Locations/18.jpg",
+        weighting: 31,
         options: [
             "Luxembourg",
             "Belgium",
@@ -238,6 +256,7 @@ let questions = [
         question: "What country is this?",
         answer: "Nigeria",
         image: "Locations/19.jpg",
+        weighting: 24,
         options: [
             "Uganda",
             "Kenya",
@@ -251,6 +270,7 @@ let questions = [
         question: "What country is this?",
         answer: "The Netherlands",
         image: "Locations/20.jpg",
+        weighting: 33,
         options: [
             "Belgium",
             "Czechia",
@@ -264,6 +284,7 @@ let questions = [
         question: "What country is this?",
         answer: "Bangladesh",
         image: "Locations/21.jpg",
+        weighting: 27,
         options: [
             "India",
             "Bhutan",
@@ -277,6 +298,7 @@ let questions = [
         question: "What country is this?",
         answer: "Norway",
         image: "Locations/22.jpg",
+        weighting: 34,
         options: [
             "Sweden",
             "Iceland",
@@ -290,6 +312,7 @@ let questions = [
         question: "What country is this?",
         answer: "Peru",
         image: "Locations/23.jpg",
+        weighting: 29,
         options: [
             "Peru",
             "Ecuador",
@@ -303,6 +326,7 @@ let questions = [
         question: "What country is this?",
         answer: "Slovakia",
         image: "Locations/24.jpg",
+        weighting: 34,
         options: [
             "Slovenia",
             "Poland",
@@ -316,6 +340,7 @@ let questions = [
         question: "What country is this?",
         answer: "The Philippines",
         image: "Locations/25.jpg",
+        weighting: 26,
         options: [
             "Indonesia",
             "The Philippines",
@@ -329,6 +354,7 @@ let questions = [
         question: "What country is this?",
         answer: "Argentina",
         image: "Locations/26.jpg",
+        weighting: 27,
         options: [
             "Chile",
             "Uruguay",
@@ -342,6 +368,7 @@ let questions = [
         question: "What country is this?",
         answer: "eSwatini",
         image: "Locations/27.jpg",
+        weighting: 34,
         options: [
             "South Africa",
             "Lesotho",
@@ -355,6 +382,7 @@ let questions = [
         question: "What country is this?",
         answer: "Jordan",
         image: "Locations/28.jpg",
+        weighting: 30,
         options: [
             "Israel",
             "United Arab Emirates",
@@ -368,6 +396,7 @@ let questions = [
         question: "What country is this?",
         answer: "Serbia",
         image: "Locations/29.jpg",
+        weighting: 30,
         options: [
             "Serbia",
             "Croatia",
@@ -381,6 +410,7 @@ let questions = [
         question: "What country is this?",
         answer: "Taiwan",
         image: "Locations/30.jpg",
+        weighting: 28,
         options: [
             "China",
             "Taiwan",
@@ -394,6 +424,7 @@ let questions = [
         question: "What country is this?",
         answer: "American Samoa",
         image: "Locations/31.jpg",
+        weighting: 22,
         options: [
             "Fiji",
             "United States",
@@ -407,6 +438,7 @@ let questions = [
         question: "What country is this?",
         answer: "Latvia",
         image: "Locations/32.jpg",
+        weighting: 29,
         options: [
             "Lithuania",
             "Latvia",
@@ -420,6 +452,7 @@ let questions = [
         question: "What country is this?",
         answer: "Rwanda",
         image: "Locations/33.jpg",
+        weighting: 30,
         options: [
             "Rwanda",
             "Kenya",
@@ -433,6 +466,7 @@ let questions = [
         question: "What country is this?",
         answer: "Guatemala",
         image: "Locations/34.jpg",
+        weighting: 31,
         options: [
             "Costa Rica",
             "Mexico",
@@ -446,6 +480,7 @@ let questions = [
         question: "What country is this?",
         answer: "Vietnam",
         image: "Locations/35.jpg",
+        weighting: 32,
         options: [
             "Laos",
             "Vietnam",
@@ -459,6 +494,7 @@ let questions = [
         question: "What country is this?",
         answer: "Bermuda",
         image: "Locations/36.jpg",
+        weighting: 27,
         options: [
             "United Kingdom",
             "Bermuda",
@@ -472,6 +508,7 @@ let questions = [
         question: "What country is this?",
         answer: "Dominican Republic",
         image: "Locations/37.jpg",
+        weighting: 28,
         options: [
             "Mexico",
             "Guatemala",
@@ -485,6 +522,7 @@ let questions = [
         question: "What country is this?",
         answer: "Ireland",
         image: "Locations/38.jpg",
+        weighting: 26,
         options: [
             "Poland",
             "United Kingdom",
@@ -498,6 +536,7 @@ let questions = [
         question: "What country is this?",
         answer: "Latvia",
         image: "Locations/39.jpg",
+        weighting: 34,
         options: [
             "Lithuania",
             "Finland",
@@ -511,6 +550,7 @@ let questions = [
         question: "What country is this?",
         answer: "United Arab Emirates",
         image: "Locations/40.jpg",
+        weighting: 37,
         options: [
             "Jordan",
             "Tunisia",
@@ -524,6 +564,7 @@ let questions = [
         question: "What country is this?",
         answer: "Indonesia",
         image: "Locations/41.jpg",
+        weighting: 33,
         options: [
             "Indonesia",
             "Malaysia",
@@ -537,6 +578,7 @@ let questions = [
         question: "What country is this?",
         answer: "North Macedonia",
         image: "Locations/42.jpg",
+        weighting: 33,
         options: [
             "Serbia",
             "Montenegro",
@@ -550,6 +592,7 @@ let questions = [
         question: "What country is this?",
         answer: "Norway",
         image: "Locations/43.jpg",
+        weighting: 37,
         options: [
             "Bulgaria",
             "Norway",
@@ -563,6 +606,7 @@ let questions = [
         question: "What country is this?",
         answer: "Reunion",
         image: "Locations/44.jpg",
+        weighting: 28,
         options: [
             "New Zealand",
             "Reunion",
@@ -576,6 +620,7 @@ let questions = [
         question: "What country is this?",
         answer: "Uruguay",
         image: "Locations/45.jpg",
+        weighting: 29,
         options: [
             "Argentina",
             "Brazil",

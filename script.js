@@ -25,7 +25,7 @@ continue_btn.onclick = () => {
 let question_count = 0;
 let question_number = 1;
 let correctanswers = 0;
-let elo = 175;
+let elo = 249;
 let count;
 
 const next_btn = quiz_box.querySelector(".next_btn")
